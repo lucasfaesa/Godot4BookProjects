@@ -29,13 +29,17 @@
       width: 200px;
       height: 60px;
       background-color: #4CAF50;
-      color: white;
+      color: #3d3d3d;
       border: none;
       border-radius: 30px;
       cursor: pointer;
       font-size: 16px;
       font-weight: bold;
       transition: background-color 0.3s ease;
+    }
+
+    .info-text {
+      color: white;
     }
 
     button:hover {
@@ -46,9 +50,13 @@
 <body>
   <div class="container">
     <div class="button-wrapper">
+      <p class="info-text">Controls:</p> 
+      <p class="info-text">W,A,S,D to Move</p>
       <button onclick="window.location.href='https://lucasfaesa.github.io/GreedyFoxHTML5-Godot/'">Greedy Fox</button>
     </div>
     <div class="button-wrapper">
+      <p class="info-text">Controls:</p> 
+      <p class="info-text">W,A,S,D to Move; Space Bar to shoot</p>
       <button onclick="window.location.href='https://lucasfaesa.github.io/AsteroidsHTML5-Godot/'">Asteroids</button>
     </div>
   </div>
